@@ -52,7 +52,7 @@ neuralsfm:
   img_retrival_method: null
 
   # Controller:
-  close_eval: False
+  close_eval: True
   redo_all: False
   redo_sfm: False
   redo_matching: False

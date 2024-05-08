@@ -18,8 +18,8 @@ sub_ray_n_worker: 1
 verbose: False
 visualize: False
 
-dataset_base_dir: /kaggle/working
-dataset_name: phototourism
+dataset_base_dir: /kaggle/working/DetectorFreeSfM/third_party/Hierarchical_Localization/datasets
+dataset_name: sacre_coeur
 output_base_dir: SfM_metric_output
 exp_name: ''
 

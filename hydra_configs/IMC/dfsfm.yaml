@@ -19,7 +19,7 @@ verbose: False
 visualize: False
 
 dataset_base_dir: /kaggle/input/image-matching-challenge-2023
-dataset_name: IMC_dataset/phototourism_reichstag
+dataset_name: train/phototourism_reichstag
 output_base_dir: SfM_metric_output
 exp_name: ''
 

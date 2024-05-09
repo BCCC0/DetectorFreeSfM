@@ -94,7 +94,7 @@ def eval_core_ray_wrapper(*args, **kwargs):
 def eval_dataset(cfg):
     OmegaConf.resolve(cfg)
     # NOTE: Important for use relative path in hydra
-    os.chdir(hydra.utils.get_original_cwd())
+    # os.chdir(hydra.utils.get_original_cwd())
     cfg = cfg_constrain(cfg)
 
     dataset_base_dir = cfg.dataset_base_dir

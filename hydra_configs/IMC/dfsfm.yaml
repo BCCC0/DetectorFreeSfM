@@ -75,4 +75,10 @@ colmap_cfg:
     abs_pose_min_inlier_ratio: 0.25
     filter_max_reproj_error: 5
 
-  colmap_mapper_cfgs: null
+  colmap_mapper_cfgs:
+    init_max_error: 10
+    abs_pose_max_error: 12
+    filter_max_reproj_error: 10
+    tri_merge_max_reproj_error: 10
+    tri_complete_max_reproj_error: 10
+    tri_ignore_two_view_tracks: 1

@@ -68,6 +68,7 @@ colmap_cfg:
   no_refine_intrinsics: False
   use_pba: False
   n_threads: 16
+  geometry_verify_thr: 10
   reregistration:
     abs_pose_max_error: 12
     abs_pose_min_num_inliers: 30
